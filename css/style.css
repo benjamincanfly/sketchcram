@@ -4,5 +4,26 @@ html {
 }
 
 body {
-	background: #fff url(/img/cram_black.png) center center no-repeat;
+	background: #fff;
+	font-family: Helvetica, Arial, Verdana;
+}
+
+div#wrapper {
+	position: relative;
+	margin: 20px auto;
+	width: 1280px;
+	height: 720px;
+}
+
+p#header {
+	position: relative;
+	font-family: Helvetica;
+	font-size: 18px;
+	margin: 20px auto;
+	width: 1238px;
+	color: #334;
+	z-index: 10;
+	background: #fff;
+	border: 1px solid #ddd;
+	padding: 20px;
 }
